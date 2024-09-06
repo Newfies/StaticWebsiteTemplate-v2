@@ -7,7 +7,7 @@
 <body>
   <script>
     // This URL should point to your repository's API endpoint for the latest commit of a specific folder
-    const apiURL = 'https://api.github.com/repos/GsLibrary/StaticWebsiteTemplate/commits?path=/Latest%20Version';
+    const apiURL = 'https://api.github.com/repos/Newfies/StaticWebsiteTemplate-v2/commits?path=/Latest%20Version';
 
     function fetchLatestCommitDate() {
       // Fetch the latest commit data from GitHub
@@ -36,7 +36,7 @@
       const initName = `StaticWebTemp - ${encodedCommitDate} - `;
       const fullName = encodeURIComponent(initName + sequence);
 
-      const initUrl = "https://numerouno.gitdownies.cloud-ip.biz/#/home?url=https://github.com/Newfies/swt-domained/tree/main/Latest%20Version";
+      const initUrl = "https://numerouno.gitdownies.cloud-ip.biz/#/home?url=https://github.com/Newfies/StaticWebsiteTemplate-v2/tree/main/Latest%20Version";
       const param = "&fileName=";
       const url = initUrl + param + fullName;
       sendUser(url);
